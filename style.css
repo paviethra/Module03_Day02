@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Gantari:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+body{
+    background: rgb(39, 89, 181);
+    font-family: 'Gantari', sans-serif;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 30px;
+}
+.main h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 5px;
+    margin: 20px 0px 20px 0px;
+    color: rgb(196, 65, 48);
+}
+p input{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid rgb(48, 100, 196);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin: 10px 0px;
+}
+p input:focus{
+    outline: none;
+}
+p button{
+    width: 20%;
+    padding: 10px;
+    font-weight: 600;
+    border: 1px rgb(196, 65, 48) solid;
+    margin: 10px 0px;
+    background: rgb(196, 65, 48);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+p button:hover{
+    background: rgb(48, 100, 196);
+    border: 1px rgb(48, 100, 196) solid;
+}
+.list{
+    list-style: none;
+    display: block;
+    padding: 20px 0px;
+}
+.list li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    margin: 10px 0px;
+}
+.list li:hover{
+    background: rgb(196, 65, 48);
+    color: rgb(255, 255, 255);
+}
+.list button{
+    background: rgb(48, 100, 196);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    width: 20%;
+}
+.caption{
+  font-size: 10px;
+  text-align: center;
+  font-weight: lighter;
+}
